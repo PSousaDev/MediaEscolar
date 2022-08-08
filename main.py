@@ -32,7 +32,7 @@ while True:
     opcao=input()
     if opcao=="1":
         x=input("digite seu nome: ")
-        print('aluno:',x,'media: ',alunos[x])
+        print('aluno:',x,',','media: ',alunos[x])
     elif opcao=="2":
         break
     else:
